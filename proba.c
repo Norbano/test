@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+void kesz(){
+    printf("Hello, World!\n");
+}
+
 
 void peldaFg(){
     printf("Hello, World!\n");
@@ -7,7 +11,8 @@ void peldaFg(){
 
 
 int main(int argc, char* argv[]) {
-
+    kesz();
+    peldaFg();
     return 0;
 }
 
